@@ -15,9 +15,11 @@
     <ClInclude Include="src\Ether\Application.h" />
     <ClInclude Include="src\Ether\Core.h" />
     <ClInclude Include="src\Ether\EntryPoint.h" />
+    <ClInclude Include="src\Ether\Log.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Ether\Application.cpp" />
+    <ClCompile Include="src\Ether\Log.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -69,6 +71,7 @@
       <PreprocessorDefinitions>ET_PLATFORM_WINDOWS;_MBCS;ET_BUILD_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)Ether\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

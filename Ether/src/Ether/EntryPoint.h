@@ -5,7 +5,11 @@
 extern Ether::Application* Ether::CreateApplication();
 
 int main(int argc, char** argv) {
-	printf("Ether Engine");
+
+	Ether::Log::Init();
+	ET_CORE_WARN("Initialized Log");
+	ET_CLIENT_TRACE("Client Msg");
+
 	auto app = Ether::CreateApplication();
 	app->Run();
 	delete app;
