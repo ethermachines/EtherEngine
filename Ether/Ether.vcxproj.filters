@@ -1,36 +1,31 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="src">
-      <UniqueIdentifier>{7f8d1103-4980-4ccb-9ee4-e1f3194553c5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\Ether">
-      <UniqueIdentifier>{4d2b1338-6c0f-4002-8b9f-aff86f2a3341}</UniqueIdentifier>
+    <Filter Include="Ether">
+      <UniqueIdentifier>{BDFE200D-2913-49BE-F294-EC1D5E6845EF}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Ether.h">
-      <Filter>src\Ether</Filter>
-    </ClInclude>
+    <ClInclude Include="src\Ether.h" />
     <ClInclude Include="src\Ether\Application.h">
-      <Filter>src\Ether</Filter>
+      <Filter>Ether</Filter>
     </ClInclude>
     <ClInclude Include="src\Ether\Core.h">
-      <Filter>src\Ether</Filter>
+      <Filter>Ether</Filter>
     </ClInclude>
     <ClInclude Include="src\Ether\EntryPoint.h">
-      <Filter>src\Ether</Filter>
+      <Filter>Ether</Filter>
     </ClInclude>
     <ClInclude Include="src\Ether\Log.h">
-      <Filter>src\Ether</Filter>
+      <Filter>Ether</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Ether\Application.cpp">
-      <Filter>src\Ether</Filter>
+      <Filter>Ether</Filter>
     </ClCompile>
     <ClCompile Include="src\Ether\Log.cpp">
-      <Filter>src\Ether</Filter>
+      <Filter>Ether</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
